@@ -26,6 +26,10 @@ public class Employee implements Serializable {
         this.imageUrl = imageUrl;
     }
 
+    public Employee() {
+
+    }
+
     public Integer getId() {
         return id;
     }
